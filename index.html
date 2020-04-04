@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>example.com</title>
+    <title>Roger Vilaseca</title>
     <style type="text/css">
       html, body {
         height: 100%;
@@ -49,9 +49,38 @@
   </head>
   <body>
     <main>
-      <h1>Roger Vilaseca Darné</h1>
-      <p>Hi my page is under construction.</p>
-      <p>It will be briefly available.</p>
+      <h1>Abril</h1>
+      <p>Això és el teu regal de cumpleanys.</p>
+      <p>Aquí t'explico com ho has de fer.</p>
+      <p>A continuació veuràs que hi ha un lloc per posar una contrasenya.</p>
+      <p>Aquesta contrasenya consta de tres números:</p>
+      <ol>
+		  <li>Passa el següent número de binari a decimal: "101"</li>
+		  <li>Agafa el dia que ens vàrem conèixer (Dia i mes) i suma les xifres. Per exemple si ens vàrem coneixer el 15 de Octubre la resposta seria: 1+5+1+0 = 7</li>
+		  <li>Finalment, l'últim número és el 8è número del meu mòvil.</li>
+	  </ol>
+	  <p>Sort!</p>
+	  <p></p>
+	  
+      <script type="text/javascript">
+		  function checkForm(form)
+		  {
+			if(form.pwd.value == "580") {
+				alert("Molt bé, el teu regal és anar a Disney Land Paris\nAixò si, quan tot aquest merder acabi.");
+				return true;
+			}
+			else {
+				alert("Contrasenya equivocada torna-ho a probar.");
+				return false;
+			}
+		  }
+
+		</script>
+
+		<form ... onsubmit="return checkForm(this);">
+		<p>Contrasenya: <input type="password" name="pwd"></p>
+		<p><input type="Submit" value="Comprova"></p>
+		</form>
     </main>
   </body>
 </html>
